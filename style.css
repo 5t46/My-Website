@@ -1,0 +1,173 @@
+body {
+    background-image: url(imgfor/gif\(5\).gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body a{
+    text-decoration: none;
+}
+
+main {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgba(31, 31, 31, 0.5);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 9px #ffffff, -1px -1px 9px #ffffff;
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgc {
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    text-align: center;
+    box-shadow: 5px 5px 9px #000000, -5px -5px 9px #000000;
+}
+
+h1 {
+    font-family: 'sf pro display', sans-serif;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-family: 'sf pro display', sans-serif;
+    font-size: 0.95em;
+    color: #7de1fa;
+    font-size: 0.95em;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+#egypt {
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+}
+
+h3 {
+    font-family: 'sf pro display', sans-serif;
+    font-size: 0.95em;
+    color: #7f7f7f;
+    margin-top: -1px;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.btn button {
+    
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 15px auto;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.btn button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition-duration: 0.4s;
+    transform: scale(1.05);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    main {
+        width: 85%;
+        padding: 20px;
+    }
+    
+    #imgc {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .btn button {
+        max-width: 100%;
+        font-size: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    body {
+        background-attachment: scroll;
+    }
+    
+    main {
+        width: 90%;
+        padding: 20px 15px;
+        margin: 10px;
+    }
+    
+    #imgc {
+        width: 80px;
+        height: 80px;
+    }
+    
+    h1 {
+        font-size: 1.3em;
+    }
+    
+    h2 {
+        font-size: 0.85em;
+    }
+    
+    h3 {
+        font-size: 0.8em;
+    }
+    
+    .btn button {
+        padding: 10px 15px;
+        font-size: 14px;
+        margin: 10px auto;
+    }
+    
+    footer {
+        font-size: 0.7em;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+    main {
+        padding: 15px 10px;
+    }
+    
+    #imgc {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .btn button {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+}
